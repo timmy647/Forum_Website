@@ -1,0 +1,16 @@
+//------------------------Planning for Iteration 2---------------------------\\
+
+---Break them into logical buckets
+There are in total 32 functions to implement in Iteration 2, which can be classified into 6 types, which are authorization, user, channel, message, standup and others. Most of them are linked to each other, so we set an order to implement them. 
+
+---The order to implement them
+Authorization contains the fundamental function for users to get access to this application, such as registration, login and logout process. Therefore, it is a priority to complete the 5 authorization functions. User is the type of functions to let users edit the profile of their account. Even though it is unnecessary to implement it to do the following coding, it is an easy coding process and will not take too much time after the authorization. Channel is the main feature and platform in this application. The channel functions are the foundation of the message and standup functions, so it should implement before get starting on message and standup functions. Messages and standup are the two features on channels. As message has the most number of functions in Iteration 2 while there are only 2 standup functions, message is preferred over standup to implement. At last, there are 2 untyped functions, which are admin_userpermission_change and search_message. They don?t have direct influence on  the main function, so they don?t have the priority.
+
+---Estimated time for each buckets
+As the time distribution, there are 3 weeks for Iteration 2 and we roughly make a timetable for it. For the first week, it is planned to finish all authorization and user functions, also implement most of the channel functions. By the end of the second week, message functions should be done. As for the last week, besides implementing the rest functions, we will test the results of all features work together.
+
+---Diagramatic format
+i[picture](https://imgur.com/cFOnhnq)
+
+---Timeline
+i[picture](https://imgur.com/wJfUNO2)
